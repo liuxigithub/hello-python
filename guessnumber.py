@@ -3,8 +3,10 @@
 猜数字游戏
 '''
 import time
+from random import randint
 
-result = 30
+
+result = randint(1,100) # 产生一个随机数
 print("input your number(1~100):")
 guess = int(input())
 
