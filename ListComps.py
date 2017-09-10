@@ -24,6 +24,7 @@
 #        (3)生成器表达式会返回一个生成器对象，这是一个可迭代对象,所以可以用于for的迭代结构中。
 #        (4)生成器可用函数netx()依次取得下一个元素。
 
+
 print(type([x**2 for x in range(10)]))
 print([x**2 for x in range(10)])
 print([x for x in range(10) if x%2]) # 选出奇数
@@ -48,3 +49,5 @@ g = (x**2 for x in range(10))
 print(next(g))
 print(next(g))
 print(next(g))
+for i in g:
+    print(i)
