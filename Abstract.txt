@@ -1,0 +1,9 @@
+The wavelength scaling of the cutoff energy in solid high harmonic generation (HHG) is investigated theoretically by separating the contributions into the intraband and interband components.
+
+We find that, the cutoff energies of intraband and interband HHG exhibit the essentially different wavelength dependences. 
+
+Specifically, the cutoff energy of the intraband HHG is wavelength independent, whereas the cutoff energy of the interband HHG depends linearly on the laser wavelength.
+
+Our results can uniformly interpret two current different wavelength scalings of the cutoff energy reported in previous researches.
+
+The fundamentally different wavelength scalings of the cutoff energy for intraband and interband HHG can be used to distinguish the two mechanisms.
