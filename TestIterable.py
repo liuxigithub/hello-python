@@ -12,6 +12,7 @@ print(isinstance({}.keys(),Iterable)) # keys对象
 print(isinstance({}.values(),Iterable)) # values对象
 print(isinstance({}.items(),Iterable)) # items对象
 print(isinstance(set(''),Iterable)) # set对象
+print(isinstance((x for x in range(5)),Iterable)) # generator 对象
 
 # 迭代器
 print(isinstance(zip([],[]),Iterable))  # zip对象, 迭代器
