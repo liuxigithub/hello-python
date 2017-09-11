@@ -7,3 +7,9 @@ Specifically, the cutoff energy of the intraband HHG is wavelength independent, 
 Our results can uniformly interpret two current different wavelength scalings of the cutoff energy reported in previous researches.
 
 The fundamentally different wavelength scalings of the cutoff energy for intraband and interband HHG can be used to distinguish the two mechanisms.
+
+ 测试write()方法 
+writelines()方法测试1 writelines()方法测试2
+
+ 测试write()方法 
+writelines()方法测试1 writelines()方法测试2
