@@ -29,9 +29,9 @@ print(Str.replace('l','L',2)) # .replace(oldstr, newstr, [count]), 把Str中的o
 print('')
 Str2 = ''*4+Str+''*3+'\n'
 print(Str2)
-print(Str2.strip(),Str2.strip('\n')) # .strip(rm), 删除Str字符串中开头、结尾处，位于rm删除序列的字符,当rm为空时，默认删除空白符（包括'\n', '\r',  '\t',  ' ')
-print(Str2.lstrip(),Str2.lstrip('\n')) # .lstrip(rm), 删除Str字符串中开头处，位于rm删除序列的字符,当rm为空时，默认删除空白符（包括'\n', '\r',  '\t',  ' ')
-print(Str2.rstrip(),Str2.rstrip('\n')) # .rstrip(rm), 删除Str字符串中结尾处，位于rm删除序列的字符,当rm为空时，默认删除空白符（包括'\n', '\r',  '\t',  ' ')
+print(Str2.strip(),Str2.strip('\n')) # .strip(rm), 删除Str字符串中开头、结尾处，位于rm删除序列的字符，直至不能找到相应的字符为准,当rm为空时，默认删除空白符（包括'\n', '\r',  '\t',  ' ')
+print(Str2.lstrip(),Str2.lstrip('\n')) # .lstrip(rm), 删除Str字符串中开头处，位于rm删除序列的字符，直至不能找到相应的字符为准,当rm为空时，默认删除空白符（包括'\n', '\r',  '\t',  ' ')
+print(Str2.rstrip(),Str2.rstrip('\n')) # .rstrip(rm), 删除Str字符串中结尾处，位于rm删除序列的字符，直至不能找到相应的字符为准,当rm为空时，默认删除空白符（包括'\n', '\r',  '\t',  ' ')
 Str3 = '\t'+Str
 print(Str3,Str3.expandtabs(4)) # .expandtabs([tabsize]), 把Str中的tab字符替换没空格，每个tab替换为tabsize个空格，默认是8个 
 
