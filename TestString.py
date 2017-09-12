@@ -57,7 +57,7 @@ print(Str.startswith("Mr"),Str.startswith("Li",3,5)) # .startswith(prefix[,start
 print(Str.endswith("llo"),Str.endswith("iu",2,6)) # .endswith(suffix[,start[,end]]), 是否以以suffix结尾
 print(Str.isalnum()) # .isalnum(), 是否全是字母和数字，并至少有一个字符
 print(Str.isalpha()) # .isalpha(), 是否全是字母，并至少有一个字符
-print(Str.digit())  # .isdigit(), 是否全是数字，并至少有一个字符
+print(Str.isdigit())  # .isdigit(), 是否全是数字，并至少有一个字符
 print(Str.isspace()) # .isspace(), 是否全是空白字符，并至少有一个字符
 print(Str.islower()) # .islower(), 字母是否全是小写
 print(Str.isupper()) # .isupper(), 字母是否全是大写
