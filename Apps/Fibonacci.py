@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 (a, b)= (0, 1)
 i = 0
 while i < 50:
