@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
 {
-    "python.pythonPath": "D:\\Anaconda3\\python.exe",
-    "python.linting.pylintEnabled": false
+    "python.pythonPath": "D:\\Anaconda\\python.exe"
 }
->>>>>>> f5afa8e0dc58dc080922f17468f6d2dca26d6e04
