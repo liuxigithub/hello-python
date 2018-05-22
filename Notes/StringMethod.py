@@ -1,6 +1,7 @@
 """
 字符串对象的相关方法
 ref: http://www.cnblogs.com/Xavierr/articles/3655897.html
+ref: 《Python核心编程(第二版)》P122
 """
 import string
 Str = 'Mr Liu Hello'
