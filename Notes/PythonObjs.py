@@ -121,7 +121,7 @@ print(type(range(10)))
                         
         用法示例：isinstance(a,int), isinstance (a,(str,int,list))
         
-        注意： 对于基本类型来说 classinfo 可以是int，float，bool，complex，str(字符串)，list，dict(字典)，set，tuple
+        注意： 对于基本类型来说 classinfo 可以是int，float，bool，complex，str(字符串,注意不是string)，list，dict(字典)，set，tuple
 
 """
 a=1
