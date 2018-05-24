@@ -158,7 +158,7 @@
                         作用：返回可迭代对象中的最小值
 
 * next()：              语法：next(iterator[, default])     
-                        参数：iterator--可迭代对象;
+                        参数：iterator--迭代器对象;
                              default--可选，用于设置在没有下一个元素时返回该默认值，
                              如果不设置，又没有下一个元素则会触发 StopIteration 异常
                         作用：返回迭代器的下一个项目
