@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 {}
+=======
+{
+    "python.pythonPath": "D:\\Anaconda\\python.exe",
+    "python.unitTest.pyTestArgs": [],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.promptToConfigure": false,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false
+}
+>>>>>>> 4c72253762a08f9533c9e4529159b7aee229eca2

@@ -7,3 +7,5 @@ Learning Python
 Notes: 用于展示用的学习笔记
 
 Apps: 写的一些小应用
+
+Res: 学习资源

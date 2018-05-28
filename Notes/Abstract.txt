@@ -13,3 +13,15 @@ writelines()方法测试1 writelines()方法测试2
 
  测试write()方法 
 writelines()方法测试1 writelines()方法测试2
+
+ 测试write()方法 
+writelines()方法测试1 writelines()方法测试2
+
+ 测试write()方法 
+writelines()方法测试1 writelines()方法测试2
+
+ 测试write()方法 
+writelines()方法测试1 writelines()方法测试2
+
+ 测试write()方法 
+writelines()方法测试1 writelines()方法测试2

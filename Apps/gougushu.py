@@ -14,8 +14,8 @@ for x in range(1,N):
     for z in range(y,N):
       for w in range(z,N):
         if x**pw+y**pw+z**pw == w**pw:
-           print('x=',x,', y=',y,', z=',z,', w=',w)
-           num +=1
+          print('x=',x,', y=',y,', z=',z,', w=',w)
+          num +=1
 
 print('-'*12+' end '+'-'*12)
 print('num=',num)

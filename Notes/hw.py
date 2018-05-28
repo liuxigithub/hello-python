@@ -55,15 +55,6 @@ print('hello, Python!')
     注意： built-in是__builtins__模块的成员，是由解释器自动导入的
 
 * 常用的内建函数： https://docs.python.org/3/library/functions.html
-
-    dir([obj]): 显示对象属性，如果不提供参数，则显示全局变量的名字
-    type(obj): 返回对象的类型，所有的返回类型都是一个type对象，包括tpye本身
-    help([obj]): 显示对象的文档字符串
-    int(obj):  将一个对象转换为整型
-    len(obj): 返回对象的长度
-    input(str): 等待用户输入一个字符串，可提供一个可选的参数str用于提示
-    str(obj): 将一个对象转化为字符串
-
 """
 
 print(3<4<5)
