@@ -25,10 +25,13 @@
 #        (3)生成器表达式会返回一个生成器对象，这是一个可迭代对象,所以可以用于for的迭代结构中。
 #        (4)生成器可用函数netx()依次取得下一个元素。
 """
+from random import randint
 
 print(type([x**2 for x in range(10)]))
 print([x**2 for x in range(10)])
 print([x for x in range(10) if x%2]) # 选出奇数
+print([0 for x in range(10)]) # 初始化一个列表
+print([randint(1,10) for i in range(10)]) # 生成一个随机数列表
 print([(x,y) for x in range(5) for y in range(5)])
 
 # ********************   统计一个文本中有多少行，多个单词和字符    ********************
