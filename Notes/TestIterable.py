@@ -23,6 +23,8 @@ print(isinstance(reversed([]),Iterable),isinstance(reversed([]),Iterator)) # rev
 print(isinstance(enumerate(range(5)),Iterable),isinstance(enumerate(range(5)),Iterator)) # enumerate 对象,迭代器
 print(isinstance(open('.txt','w'),Iterable),isinstance(open('.txt','w'),Iterator)) # 文件对象, 迭代器, 迭代方式为读取文件的每行并赋值给迭代变量
 print(isinstance((x for x in range(5)),Iterable),isinstance((x for x in range(5)),Iterator)) # generator对象,迭代器
+print(isinstance(filter(bool,[1,2]),Iterable),isinstance(filter(bool,[1,2]),Iterator)) # filter对象,迭代器
+print(isinstance(map(lambda x:x,[1,2]),Iterable),isinstance(map(lambda x:x,[1,2]),Iterator)) # map对象,迭代器
 
 print()
 

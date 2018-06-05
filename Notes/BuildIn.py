@@ -95,7 +95,13 @@
 
 * exec(): 待写
 
-* filter()： 待写
+* filter()：    用于过滤可迭代对象，过滤掉不符合条件的元素，返回由符合条件元素组成的新列表。
+                该函数接收两个参数，第一个为一个布尔函数，第二个为可迭代对象，
+                可迭代对象的每个元素作为参数传递给函数进行判断，然后返回True或False，
+                最后将返回True的元素放到新的名为filter类型的对象中。
+
+                格式： filter(boolfunction, iterable)
+                返回： filter对象,是一个迭代器
 
 * float()： float类型的工厂函数
 
@@ -147,7 +153,11 @@
 
 * locals()： 待写
 
-* map()： 待写
+* map()：       会根据提供的函数对指定序列做映射，第一个参数 function以参数序列中的每一个元素调用function函数，
+                返回包含每次function函数返回值的map对象
+
+                格式： map(function, iterable, ...)
+                返回： map对象,是一个迭代器
 
 * max():                语法：max(iterable)
                         作用：返回可迭代对象中的最大值
