@@ -180,7 +180,7 @@ def is_odd(n):
 newlist = filter(is_odd, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 print(type(newlist))
 
-# map()函数
+#%% map()函数
 map_1 = map(lambda x: x**2,range(6))
 print(list(map_1))
 

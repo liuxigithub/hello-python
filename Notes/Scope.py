@@ -62,6 +62,15 @@
 
             make_counter_test()
 
+
+* globals()和locals()内建函数：
+
+        * globals()：函数会以字典类型返回当前位置的全部全局变量，无输入参数
+
+        * locals()： 函数会以字典类型返回当前位置的全部局部变量，无输入参数
+
+        * 在全局命名空间下，globals()和locals()返回相同的字典，因为此时局部名称空间就是全局空间
+
 * 相关网页：
 
     https://blog.csdn.net/youngbit007/article/details/64905070
@@ -107,3 +116,15 @@ def make_counter_test():
   print(mc())
 
 make_counter_test()
+
+#%% globals()和locals()函数
+
+def foo():
+    print('\ncalling foo()...')
+    aString = 'bar'
+    anInt = 42
+    print("foo()'s globals:", globals().keys())
+    print("foo()'s locals:", locals().keys())
+print("__main__'s globals:", globals().keys())
+print("__main__'s locals:", locals().keys())
+foo()
