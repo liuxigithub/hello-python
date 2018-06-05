@@ -74,6 +74,7 @@ show()
 foo = 123
 print('foo from impter:',foo)
 show()
+print(__name__)
 
 #%%
 import imptee
